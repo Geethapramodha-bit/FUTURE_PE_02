@@ -4,6 +4,7 @@ type Body = {
   platform: string;
   types: string[];
   count: number;
+  subject?: string;
   details?: string;
 };
 
