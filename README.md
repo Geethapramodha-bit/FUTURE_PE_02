@@ -98,6 +98,9 @@ Your home deserves nothing less than the best.
 
 
 
+
+
+
 prompt 2: instagram 
 I have a service-based application named Suvidha Elite, which is an online professional hiring platform where people can hire reliable professionals for different services. If you were an AI Marketing Content Developer, generate scroll-stopping hooks, CTAs, UGC-style content, and captions for Instagram. The generated content should look: make each of three
 * modern
