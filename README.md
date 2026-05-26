@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/95f86ce8-c423-4bb4-a45e-d8cf58b9929d
+
 prompt 1: facebook 
 I have a service-based application named Suvidha Elite, which is an online professional hiring platform where people can hire reliable professionals for different services.
 If you were an AI Marketing Content Developer, generate scroll-stopping hooks, CTAs, UGC-style content, and captions for Facebook.
@@ -315,3 +319,72 @@ Stop believing the myths. Start using Suvidha Elite. Link below. 👇"
 3.
 
 "My Mom Used Suvidha Elite for the First Time… Here's What Happened"
+
+
+
+
+
+
+
+
+
+Prompt : 4
+website from lovable 
+If you were a web application developer, generate a UI that creates scroll-stopping hooks, CTAs, UGC-style content, and captions based on the platform selected by the user.
+
+The website should look simple and attractive.
+
+Generate a single-page application where the user first selects a platform like Instagram, Facebook, YouTube, or multiple apps.
+
+Integrate AI so users can generate platform-specific marketing content based on their selected application.
+
+Add an input box where users can describe their product, service, application, or the type of content they want to generate marketing outputs for.
+
+Based on the user’s input, the AI should dynamically generate the required hooks, CTAs, UGC-style content, and captions.
+
+Add checkboxes so users can choose what they want to generate:
+- Hooks
+- CTAs
+- UGC-style content
+- Captions
+- or all of them
+
+Also add an optional input field where users can provide additional details about the type of content they want.
+Examples:
+- storytelling style
+- emotional tone
+- short-form content
+
+Add an option where users can select the number of outputs they want for the selected components.
+
+Make sure the outputs are fetched dynamically from AI based on the selected platform, since different platforms require different content styles.
+
+The generated content tone should be professional.
+
+After generating the results, display a section asking:
+“Are you satisfied with these results or would you like to retry?”
+
+Below the generated outputs, add action buttons like:
+- Save
+- Export
+- Share
+
+Add support for both light mode and dark mode.
+
+Use modern UI cards and attractive layouts to make the application visually appealing.
+
+Avoid dull designs and use suitable aesthetic color combinations.
+
+
+
+ai output:
+<img width="1916" height="932" alt="image" src="https://github.com/user-attachments/assets/a2c8b01c-3309-466a-a2ad-2ea744c721cc" />
+<img width="1910" height="899" alt="image" src="https://github.com/user-attachments/assets/a7ddc0e6-b955-441e-ad1f-6a6d0a0e9f81" />
+<img width="1919" height="901" alt="image" src="https://github.com/user-attachments/assets/9b93144f-9487-400f-826c-41a88b328b96" />
+
+
+
+lovale published link 
+https://hook-and-grow-79.lovable.app
+
+
