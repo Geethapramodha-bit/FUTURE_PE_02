@@ -264,11 +264,37 @@ function Index() {
           </CardContent>
         </Card>
 
+        {/* Subject */}
+        <Card className="border-border/60 shadow-[var(--shadow-card)] mt-5">
+          <CardHeader>
+            <CardTitle className="text-base font-semibold">
+              2. What are you promoting?
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-2">
+            <Label htmlFor="subject" className="text-sm">
+              Describe your product, service, app, or topic
+            </Label>
+            <Textarea
+              id="subject"
+              value={subject}
+              onChange={(e) => setSubject(e.target.value)}
+              placeholder="e.g. A meal-planning app that builds weekly grocery lists from your diet preferences and budget."
+              rows={3}
+              maxLength={600}
+            />
+            <div className="flex items-center justify-between text-[11px] text-muted-foreground">
+              <span>The AI tailors every hook, CTA, and caption to this.</span>
+              <span>{subject.length}/600</span>
+            </div>
+          </CardContent>
+        </Card>
+
         {/* Content types + count */}
         <div className="grid lg:grid-cols-2 gap-5 mt-5">
           <Card className="border-border/60 shadow-[var(--shadow-card)]">
             <CardHeader className="flex flex-row items-center justify-between">
-              <CardTitle className="text-base font-semibold">2. What should we generate?</CardTitle>
+              <CardTitle className="text-base font-semibold">3. What should we generate?</CardTitle>
               <Button variant="ghost" size="sm" onClick={selectAllTypes}>
                 {types.length === CONTENT_TYPES.length ? "Clear" : "Select all"}
               </Button>
