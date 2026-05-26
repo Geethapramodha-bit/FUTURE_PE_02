@@ -69,6 +69,7 @@ function Index() {
   const [platforms, setPlatforms] = useState<string[]>([]);
   const [types, setTypes] = useState<string[]>([]);
   const [count, setCount] = useState(3);
+  const [subject, setSubject] = useState("");
   const [details, setDetails] = useState("");
   const [loading, setLoading] = useState(false);
   const [results, setResults] = useState<Record<string, Record<string, string[]>> | null>(null);
