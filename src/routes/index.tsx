@@ -322,7 +322,7 @@ function Index() {
 
           <Card className="border-border/60 shadow-[var(--shadow-card)]">
             <CardHeader>
-              <CardTitle className="text-base font-semibold">3. Tune your output</CardTitle>
+              <CardTitle className="text-base font-semibold">4. Tune your output</CardTitle>
             </CardHeader>
             <CardContent className="space-y-6">
               <div>
