@@ -97,6 +97,8 @@ function Index() {
   async function generate() {
     if (platforms.length === 0) return toast.error("Select at least one platform");
     if (types.length === 0) return toast.error("Select at least one content type");
+    if (subject.trim().length < 3)
+      return toast.error("Describe your product, service, or topic (at least 3 characters)");
     setLoading(true);
     setResults(null);
     try {
@@ -106,7 +108,7 @@ function Index() {
           const res = await fetch("/api/generate", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ platform, types, count, details }),
+            body: JSON.stringify({ platform, types, count, subject, details }),
           });
           const data = await res.json();
           if (!res.ok) throw new Error(data?.error || "Failed");
